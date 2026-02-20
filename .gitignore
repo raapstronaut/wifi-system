@@ -1,0 +1,39 @@
+# dependencies & build
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.turbo/
+**/.vercel/
+
+# env secrets
+**/.env
+**/.env.*
+!.env.example
+!.env.sample
+
+# PocketBase data (database & uploads)
+**/pb_data/
+**/pb_migrations/
+**/pb_public/
+**/.pb/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# PocketBase runtime data (JANGAN DIPUSH)
+backend/pb_data/
+backend/pb_data_old/
+
+# PocketBase binary (opsional, disarankan tidak dipush)
+backend/pocketbase.exe
