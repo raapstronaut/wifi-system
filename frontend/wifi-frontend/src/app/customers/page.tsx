@@ -99,6 +99,8 @@ export default function CustomersPage() {
         <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           <Link href="/customers/new">+ Tambah</Link>
 
+          <Link href="/speedtest">Speedtest</Link>
+
           {role === "ADMIN" && <Link href="/traffic">Traffic</Link>}
 
           <Link href="/map">Lihat Peta</Link>
